@@ -1,0 +1,17 @@
+{
+  "name": "campus-resource-booking-system",
+  "version": "1.0.0",
+  "description": "Campus Resource Booking System - MERN Stack Project (Team O6)",
+  "scripts": {
+    "dev": "concurrently \"npm run backend\" \"npm run frontend\"",
+    "seed": "npm --prefix backend run seed",
+    "backend": "npm --prefix backend run dev",
+    "frontend": "npm --prefix frontend run dev"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.2"
+  },
+  "keywords": ["mern", "campus-resource-booking"],
+  "author": "Team O6",
+  "license": "MIT"
+}
